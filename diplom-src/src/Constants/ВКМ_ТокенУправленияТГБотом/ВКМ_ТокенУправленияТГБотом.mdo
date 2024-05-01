@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fdf14b9a-d8a5-4ace-8405-34d8d82274a1">
+  <producedTypes>
+    <managerType typeId="3f6889cd-0a56-4b75-8c47-cf46dfa953b6" valueTypeId="43aa9881-7cea-4f8c-b050-42f39f252e4e"/>
+    <valueManagerType typeId="8e54cda7-6e3a-4f0e-b304-9f051584ab96" valueTypeId="5603df08-63c0-40e2-856a-8a38dd65d128"/>
+    <valueKeyType typeId="677bcf58-353b-4e14-84a9-f79eea49d27a" valueTypeId="eb5dc0d9-3c45-4248-af28-7e900e85995d"/>
+  </producedTypes>
+  <name>ВКМ_ТокенУправленияТГБотом</name>
+  <synonym>
+    <key>ru</key>
+    <value>Токен управления ТГ ботом</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>250</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

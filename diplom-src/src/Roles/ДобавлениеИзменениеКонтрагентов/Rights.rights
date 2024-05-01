@@ -9228,7 +9228,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ДоговорыКонтрагентовПрисоединенныеФайлы</name>
+		<name>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
