@@ -18,4 +18,7 @@
   <content>CommonModule.ВКМ_Телеграмм</content>
   <content>Catalog.ВКМ_УведомленияТГБоту</content>
   <content>ScheduledJob.ВКМ_УведомленияТГБот</content>
+  <content>Catalog.ДоговорыКонтрагентов</content>
+  <content>Catalog.Номенклатура</content>
+  <content>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы</content>
 </mdclass:Subsystem>
