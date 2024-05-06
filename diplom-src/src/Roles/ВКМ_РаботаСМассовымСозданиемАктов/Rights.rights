@@ -6,18 +6,6 @@
 	<object>
 		<name>Configuration.УправлениеITФирмой</name>
 		<right>
-			<name>SaveUserData</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>ThinClient</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>WebClient</name>
-			<value>true</value>
-		</right>
-		<right>
 			<name>MainWindowModeEmbeddedWorkplace</name>
 			<value>true</value>
 		</right>
