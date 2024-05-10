@@ -21,24 +21,16 @@
   <content>Catalog.ДоговорыКонтрагентов</content>
   <content>Catalog.Номенклатура</content>
   <content>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы</content>
-  <content>Document.ВКМ_НачисленияЗарплаты</content>
-  <content>DataProcessor.ВКМ_ЗаполнениеГрафикаРаботы</content>
   <content>InformationRegister.ВКМ_УсловияОплатыСотрудников</content>
-  <content>CalculationRegister.ВКМ_ДополнительныеНачисления</content>
-  <content>Document.ВКМ_НачислениеФиксПремий</content>
-  <content>Document.ВКМ_ВыплатаЗарплаты</content>
-  <content>Document.ВКМ_ГрафикОтпусков</content>
   <content>Constant.ВКМ_НоменклатураРаботыСпециалиста</content>
   <content>Constant.ВКМ_ТокенУправленияТГБотом</content>
   <content>Constant.ВКМ_НоменклатураАбонентскаяПлата</content>
   <content>Constant.ВКМ_ИдентификаторГруппыДляОповещения</content>
-  <content>Catalog.ВКМ_ГрафикиРаботы</content>
-  <content>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления</content>
-  <content>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления</content>
-  <content>ChartOfCalculationTypes.ВКМ_Удержания</content>
-  <content>InformationRegister.ВКМ_ГрафикиРаботы</content>
   <content>AccumulationRegister.ВКМ_ВыполненныеСотрудникомРаботы</content>
   <content>AccumulationRegister.ВКМ_ВзаиморасчетыССотрудниками</content>
-  <content>CalculationRegister.ВКМ_ОсновныеНачисления</content>
-  <content>CalculationRegister.ВКМ_Удержания</content>
+  <content>CommandGroup.ВКМ_Документы</content>
+  <content>CommandGroup.ВКМ_Справочники</content>
+  <content>Report.ВКМ_АнализВыставленныхАктов</content>
+  <content>Role.ВКМ_ДобавлениеИзменениеОбслуживанияКлиентов</content>
+  <content>Role.ВКМ_РаботаСМассовымСозданиемАктов</content>
 </mdclass:Subsystem>

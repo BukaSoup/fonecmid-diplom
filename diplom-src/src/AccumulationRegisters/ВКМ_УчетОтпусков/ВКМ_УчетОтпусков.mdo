@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f087d363-f9f8-415a-9d54-118a82775f61">
+  <producedTypes>
+    <selectionType typeId="8c3b6111-2933-432f-a430-f787ad169608" valueTypeId="d4abc75b-ec50-420a-bf24-fd63f59183b8"/>
+    <listType typeId="4442ffd8-e41f-4802-b23b-9589d13d4de6" valueTypeId="e8741c65-6905-467f-a0f9-0a276238d2dd"/>
+    <managerType typeId="f58cf190-ac8b-4719-b2e9-f0f7b5240bb5" valueTypeId="2fc1002d-2428-4541-a472-3a33045eb535"/>
+    <recordSetType typeId="6ba27ee6-bab0-4558-a44b-bf72095f144d" valueTypeId="148f272b-8d86-4b4e-9b4e-3149a26674b9"/>
+    <recordKeyType typeId="88919317-e891-4b98-90c1-9b896e4ec784" valueTypeId="55ca8aaf-bcfa-43b8-afc9-bfea31e7edd3"/>
+    <recordType typeId="c7f0adf8-1fd6-4525-84cc-a8a50175eab6" valueTypeId="82894a34-a767-4889-a894-8776c17247e3"/>
+  </producedTypes>
+  <name>ВКМ_УчетОтпусков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учет отпусков</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="c274a6d6-6972-4a4c-9107-c14f0045d0a2">
+    <name>ВКМ_Значение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="8babd40e-3e13-4574-9d04-cc7338cb3725">
+    <name>ВКМ_Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="154492ee-3709-4063-b488-d88935c6aa1d">
+    <name>ВКМ_ДатаНачало</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начало</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="a404d006-f1a5-47c5-8ad5-d109095e5fd2">
+    <name>ВКМ_ДатаОкончание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончание</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>
