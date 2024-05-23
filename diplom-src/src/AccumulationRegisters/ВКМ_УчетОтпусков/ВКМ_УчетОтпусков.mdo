@@ -47,38 +47,4 @@
     <fullTextSearch>Use</fullTextSearch>
     <useInTotals>true</useInTotals>
   </dimensions>
-  <dimensions uuid="154492ee-3709-4063-b488-d88935c6aa1d">
-    <name>ВКМ_ДатаНачало</name>
-    <synonym>
-      <key>ru</key>
-      <value>Дата начало</value>
-    </synonym>
-    <type>
-      <types>Date</types>
-      <dateQualifiers>
-        <dateFractions>Date</dateFractions>
-      </dateQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <useInTotals>true</useInTotals>
-  </dimensions>
-  <dimensions uuid="a404d006-f1a5-47c5-8ad5-d109095e5fd2">
-    <name>ВКМ_ДатаОкончание</name>
-    <synonym>
-      <key>ru</key>
-      <value>Дата окончание</value>
-    </synonym>
-    <type>
-      <types>Date</types>
-      <dateQualifiers>
-        <dateFractions>Date</dateFractions>
-      </dateQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <useInTotals>true</useInTotals>
-  </dimensions>
 </mdclass:AccumulationRegister>
